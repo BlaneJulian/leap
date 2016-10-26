@@ -1,3 +1,8 @@
+//business logic
+
+var leapYear = function(year) {
+  return false;
+};
 
 
 
@@ -11,8 +16,7 @@
 
 
 
-
-
+//front end logic
 $(document).ready(function() {
   $("form#leap-year").submit(function(event) {
     event.preventDefault();
